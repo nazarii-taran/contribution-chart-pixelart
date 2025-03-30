@@ -11,6 +11,8 @@ This is a tool that allows you to create artificial commit history to paint pict
 
 It creates empty commits using `--allow-empty` flag on a specific dates leveraging environment variables `GIT_AUTHOR_DATE` and `GIT_COMMITTER_DATE` which it will set during execution (it will actually make a copy of current env and just add these to a copy).
 
+It is designed for empty contribution years, so it will paint from the first Sunday of the given year until the end of the template image. If you already have some contributions for the specified year, the results may be different.
+
 ## Usage
 
 ```
